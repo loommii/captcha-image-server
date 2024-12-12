@@ -3,7 +3,7 @@ module captchaImageServer
 go 1.22.4
 
 require (
-	github.com/loommii/captcha-image/captchaimage v0.0.0-20241212074640-b32f02bd330e
+	github.com/loommii/captcha-image/captchaimage v0.0.0-20241212173131-ed024c007bf9
 	github.com/zeromicro/go-zero v1.7.4
 )
 

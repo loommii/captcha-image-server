@@ -38,6 +38,8 @@ github.com/kylelemons/godebug v1.1.0 h1:RPNrshWIDI6G2gRW9EHilWtl7Z6Sb1BR0xunSBf0
 github.com/kylelemons/godebug v1.1.0/go.mod h1:9/0rRGxNHcop5bhtWyNeEfOS8JIWk580+fNqagV/RAw=
 github.com/loommii/captcha-image/captchaimage v0.0.0-20241212074640-b32f02bd330e h1:JKbQaFmoN/ie77aEdfOq7AhpyW3lRZJ/Uz50m3bUdA0=
 github.com/loommii/captcha-image/captchaimage v0.0.0-20241212074640-b32f02bd330e/go.mod h1:ejWLw6nZ5ofUTvHI29cDxaE/WcFZetXp2wQ8SPqYQis=
+github.com/loommii/captcha-image/captchaimage v0.0.0-20241212173131-ed024c007bf9 h1:baHvAAIN2VbhWk6XDuezGRDwgABovR+UstQqASnKcG0=
+github.com/loommii/captcha-image/captchaimage v0.0.0-20241212173131-ed024c007bf9/go.mod h1:ejWLw6nZ5ofUTvHI29cDxaE/WcFZetXp2wQ8SPqYQis=
 github.com/mattn/go-colorable v0.1.13 h1:fFA4WZxdEF4tXPZVKMLwD8oUnCTTo08duU7wxecdEvA=
 github.com/mattn/go-colorable v0.1.13/go.mod h1:7S9/ev0klgBDR4GtXTXX8a3vIGJpMovkB8vQcUbaXHg=
 github.com/mattn/go-isatty v0.0.16/go.mod h1:kYGgaQfpe5nmfYZH+SKPsOc2e4SrIfOl2e/yFXSvRLM=
