@@ -9,16 +9,16 @@ import (
 	"github.com/zeromicro/go-zero/rest/httpx"
 )
 
-func CaptchaImageServerHandler(svcCtx *svc.ServiceContext) http.HandlerFunc {
+func CaptchaCheckHandler(svcCtx *svc.ServiceContext) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
-		var req types.Request
+		var req types.CaptchaCheckReq
 		if err := httpx.Parse(r, &req); err != nil {
 			httpx.ErrorCtx(r.Context(), w, err)
 			return
 		}
 
-		l := logic.NewCaptchaImageServerLogic(r.Context(), svcCtx)
-		resp, err := l.CaptchaImageServer(&req)
+		l := logic.NewCaptchaCheckLogic(r.Context(), svcCtx)
+		resp, err := l.CaptchaCheck(&req)
 		if err != nil {
 			httpx.ErrorCtx(r.Context(), w, err)
 		} else {

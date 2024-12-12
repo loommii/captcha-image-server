@@ -15,9 +15,19 @@ func RegisterHandlers(server *rest.Server, serverCtx *svc.ServiceContext) {
 	server.AddRoutes(
 		[]rest.Route{
 			{
+				Method:  http.MethodPost,
+				Path:    "/captcha/Check",
+				Handler: CaptchaCheckHandler(serverCtx),
+			},
+			{
 				Method:  http.MethodGet,
-				Path:    "/from/:name",
-				Handler: CaptchaImageServerHandler(serverCtx),
+				Path:    "/captcha/image",
+				Handler: GetCaptchaImageHandler(serverCtx),
+			},
+			{
+				Method:  http.MethodGet,
+				Path:    "/ping",
+				Handler: pingHandler(serverCtx),
 			},
 		},
 	)

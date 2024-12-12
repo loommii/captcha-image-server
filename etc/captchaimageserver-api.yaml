@@ -1,3 +1,5 @@
 Name: captchaImageServer-api
 Host: 0.0.0.0
-Port: 8888
+Port: 54289
+Captcha:
+  Expire: 300 # 验证码过期时间单位秒
